@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>win10个性化设置-开始菜单布局设置</title>
+    <title>win10个性化设置-开始菜单布局设置-封装</title>
     <url>/posts/10027.html</url>
-    <content><![CDATA[<p>手动备份开始菜单布局   C:\Users\Default\AppData\Local\Microsoft\Windows\Shell<br>1、到处布局文件<br>        win+x  power shell  输入命令“Export-startlayout –path c:\start\start.xml”，其中“c:\start”为事先设置好的一个文件夹，用以保存开始菜单布局文件，“start.xml”为指定的开始菜单布局文件，文件名可修改；<br>2、应用默认布局<br>     win+x  power shell（管理员）  输入命令  import-startlayout -layoutpath c:\start\start.xml -mountpath c:\</p>
+    <content><![CDATA[<h1 id="①手动调整开始菜单布局"><a href="#①手动调整开始菜单布局" class="headerlink" title="①手动调整开始菜单布局"></a>①手动调整开始菜单布局</h1><h1 id="②导出布局文件"><a href="#②导出布局文件" class="headerlink" title="②导出布局文件"></a>②导出布局文件</h1><p> win+x  power shell  输入命令“Export-startlayout –path c:\start\start.xml”，其中“c:\start”为事先设置好的一个文件夹，用以保存开始菜单布局文件，“start.xml”为指定的开始菜单布局文件，文件名可修改；</p>
+<h1 id="③应用默认布局"><a href="#③应用默认布局" class="headerlink" title="③应用默认布局"></a>③应用默认布局</h1><p>win+x  power shell（管理员）  输入命令  import-startlayout -layoutpath c:\start\start.xml -mountpath c:\</p>
 ]]></content>
       <categories>
         <category>Windows教程</category>
       </categories>
       <tags>
-        <tag>Window 10</tag>
+        <tag>Window 10，封装</tag>
       </tags>
   </entry>
   <entry>
-    <title>win10默认应用设置</title>
+    <title>win10默认应用设置-封装</title>
     <url>/posts/11557.html</url>
     <content><![CDATA[<hr>
-<p>1、封裝前先設定好預設應用程式</p>
-<p>2、cmd下下面指令 匯出預設應用程式的設定檔<br>Dism.exe &#x2F;Online &#x2F;Export-DefaultAppAssociations:C:\windows\AppAssoc.xml</p>
-<p>3、在C:\Windows\Setup\Scripts 下 建立 SetupComplete.cmd<br>內容為<br>Dism.exe &#x2F;Online &#x2F;Import-DefaultAppAssociations:C:\Windows\AppAssoc.xml</p>
-<p>再右键以管理员运行SetupComplete.cmd</p>
+<h1 id="①手动设置默认应用"><a href="#①手动设置默认应用" class="headerlink" title="①手动设置默认应用"></a>①手动设置默认应用</h1><h1 id="②输入命令导出设定"><a href="#②输入命令导出设定" class="headerlink" title="②输入命令导出设定"></a>②输入命令导出设定</h1><p>输入cmd，然后输入命令：Dism.exe &#x2F;Online &#x2F;Export-DefaultAppAssociations:C:\windows\AppAssoc.xml</p>
+<h1 id="③建立SetupComplete-cmd"><a href="#③建立SetupComplete-cmd" class="headerlink" title="③建立SetupComplete.cmd"></a>③建立SetupComplete.cmd</h1><p>在C:\Windows\Setup\Scripts 下 建立 SetupComplete.cmd內容为：Dism.exe &#x2F;Online &#x2F;Import-DefaultAppAssociations:C:\Windows\AppAssoc.xml<br>最后再右键以管理员运行SetupComplete.cmd</p>
 ]]></content>
       <categories>
         <category>Windows教程</category>
       </categories>
       <tags>
-        <tag>Window 10</tag>
+        <tag>Window 10，封装</tag>
       </tags>
   </entry>
 </search>

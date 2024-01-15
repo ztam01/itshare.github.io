@@ -6,7 +6,7 @@
   <link href="https://itkti.com/atom.xml" rel="self"/>
   
   <link href="https://itkti.com/"/>
-  <updated>2024-01-15T13:46:48.810Z</updated>
+  <updated>2024-01-15T14:23:32.849Z</updated>
   <id>https://itkti.com/</id>
   
   <author>
@@ -17,20 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>win10默认应用设置</title>
+    <title>win10默认应用设置-封装</title>
     <link href="https://itkti.com/posts/11557.html"/>
     <id>https://itkti.com/posts/11557.html</id>
     <published>2024-01-15T13:43:03.000Z</published>
-    <updated>2024-01-15T13:46:48.810Z</updated>
+    <updated>2024-01-15T14:23:32.849Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>1、封裝前先設定好預設應用程式</p><p>2、cmd下下面指令 匯出預設應用程式的設定檔<br>Dism.exe &#x2F;Online &#x2F;Export-DefaultAppAssociations:C:\windows\AppAssoc.xml</p><p>3、在C:\Windows\Setup\Scripts 下 建立 SetupComplete.cmd<br>內容為<br>Dism.exe &#x2F;Online &#x2F;Import-DefaultAppAssociations:C:\Windows\AppAssoc.xml</p><p>再右键以管理员运行SetupComplete.cmd</p>]]></content>
+    <content type="html"><![CDATA[<hr><h1 id="①手动设置默认应用"><a href="#①手动设置默认应用" class="headerlink" title="①手动设置默认应用"></a>①手动设置默认应用</h1><h1 id="②输入命令导出设定"><a href="#②输入命令导出设定" class="headerlink" title="②输入命令导出设定"></a>②输入命令导出设定</h1><p>输入cmd，然后输入命令：Dism.exe &#x2F;Online &#x2F;Export-DefaultAppAssociations:C:\windows\AppAssoc.xml</p><h1 id="③建立SetupComplete-cmd"><a href="#③建立SetupComplete-cmd" class="headerlink" title="③建立SetupComplete.cmd"></a>③建立SetupComplete.cmd</h1><p>在C:\Windows\Setup\Scripts 下 建立 SetupComplete.cmd內容为：Dism.exe &#x2F;Online &#x2F;Import-DefaultAppAssociations:C:\Windows\AppAssoc.xml<br>最后再右键以管理员运行SetupComplete.cmd</p>]]></content>
     
     
       
       
     <summary type="html">&lt;hr&gt;
-&lt;p&gt;1、封裝前先設定好預設應用程式&lt;/p&gt;
-&lt;p&gt;2、cmd下下面指令 匯出預設應用程式的設定檔&lt;br&gt;Dism.exe &amp;#x2F;Online &amp;#x2F;Export-DefaultAppAssociations:C:&#92;windows&#92;AppAssoc.xml&lt;</summary>
+&lt;h1 id=&quot;①手动设置默认应用&quot;&gt;&lt;a href=&quot;#①手动设置默认应用&quot; class=&quot;headerlink&quot; title=&quot;①手动设置默认应用&quot;&gt;&lt;/a&gt;①手动设置默认应用&lt;/h1&gt;&lt;h1 id=&quot;②输入命令导出设定&quot;&gt;&lt;a href=&quot;#②输入命令导出设定&quot; </summary>
       
     
     
@@ -38,23 +37,23 @@
     <category term="Windows教程" scheme="https://itkti.com/categories/Windows%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="Window 10" scheme="https://itkti.com/tags/Window-10/"/>
+    <category term="Window 10，封装" scheme="https://itkti.com/tags/Window-10%EF%BC%8C%E5%B0%81%E8%A3%85/"/>
     
   </entry>
   
   <entry>
-    <title>win10个性化设置-开始菜单布局设置</title>
+    <title>win10个性化设置-开始菜单布局设置-封装</title>
     <link href="https://itkti.com/posts/10027.html"/>
     <id>https://itkti.com/posts/10027.html</id>
     <published>2024-01-15T12:52:27.000Z</published>
-    <updated>2024-01-15T13:40:58.635Z</updated>
+    <updated>2024-01-15T14:23:25.485Z</updated>
     
-    <content type="html"><![CDATA[<p>手动备份开始菜单布局   C:\Users\Default\AppData\Local\Microsoft\Windows\Shell<br>1、到处布局文件<br>        win+x  power shell  输入命令“Export-startlayout –path c:\start\start.xml”，其中“c:\start”为事先设置好的一个文件夹，用以保存开始菜单布局文件，“start.xml”为指定的开始菜单布局文件，文件名可修改；<br>2、应用默认布局<br>     win+x  power shell（管理员）  输入命令  import-startlayout -layoutpath c:\start\start.xml -mountpath c:\</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="①手动调整开始菜单布局"><a href="#①手动调整开始菜单布局" class="headerlink" title="①手动调整开始菜单布局"></a>①手动调整开始菜单布局</h1><h1 id="②导出布局文件"><a href="#②导出布局文件" class="headerlink" title="②导出布局文件"></a>②导出布局文件</h1><p> win+x  power shell  输入命令“Export-startlayout –path c:\start\start.xml”，其中“c:\start”为事先设置好的一个文件夹，用以保存开始菜单布局文件，“start.xml”为指定的开始菜单布局文件，文件名可修改；</p><h1 id="③应用默认布局"><a href="#③应用默认布局" class="headerlink" title="③应用默认布局"></a>③应用默认布局</h1><p>win+x  power shell（管理员）  输入命令  import-startlayout -layoutpath c:\start\start.xml -mountpath c:\</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;手动备份开始菜单布局   C:&#92;Users&#92;Default&#92;AppData&#92;Local&#92;Microsoft&#92;Windows&#92;Shell&lt;br&gt;1、到处布局文件&lt;br&gt;        win+x  power shell  输入命令“Export-startlayout –p</summary>
+    <summary type="html">&lt;h1 id=&quot;①手动调整开始菜单布局&quot;&gt;&lt;a href=&quot;#①手动调整开始菜单布局&quot; class=&quot;headerlink&quot; title=&quot;①手动调整开始菜单布局&quot;&gt;&lt;/a&gt;①手动调整开始菜单布局&lt;/h1&gt;&lt;h1 id=&quot;②导出布局文件&quot;&gt;&lt;a href=&quot;#②导出布局文件&quot; c</summary>
       
     
     
@@ -62,7 +61,7 @@
     <category term="Windows教程" scheme="https://itkti.com/categories/Windows%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="Window 10" scheme="https://itkti.com/tags/Window-10/"/>
+    <category term="Window 10，封装" scheme="https://itkti.com/tags/Window-10%EF%BC%8C%E5%B0%81%E8%A3%85/"/>
     
   </entry>
   
