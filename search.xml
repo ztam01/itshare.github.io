@@ -2,8 +2,24 @@
 <search>
   <entry>
     <title>win10个性化设置-开始菜单布局设置</title>
-    <url>/2024/01/15/win10%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE-%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E5%B8%83%E5%B1%80%E8%AE%BE%E7%BD%AE/</url>
+    <url>/undefined/10027.html</url>
     <content><![CDATA[<p>手动备份开始菜单布局   C:\Users\Default\AppData\Local\Microsoft\Windows\Shell<br>1、到处布局文件<br>        win+x  power shell  输入命令“Export-startlayout –path c:\start\start.xml”，其中“c:\start”为事先设置好的一个文件夹，用以保存开始菜单布局文件，“start.xml”为指定的开始菜单布局文件，文件名可修改；<br>2、应用默认布局<br>     win+x  power shell（管理员）  输入命令  import-startlayout -layoutpath c:\start\start.xml -mountpath c:\</p>
+]]></content>
+      <categories>
+        <category>Windows教程</category>
+      </categories>
+      <tags>
+        <tag>Window 10</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>win10默认应用设置</title>
+    <url>/undefined/11557.html</url>
+    <content><![CDATA[<hr>
+<p>1、封裝前先設定好預設應用程式</p>
+<p>2、cmd下下面指令 匯出預設應用程式的設定檔<br>Dism.exe &#x2F;Online &#x2F;Export-DefaultAppAssociations:C:\windows\AppAssoc.xml</p>
+<p>3、在C:\Windows\Setup\Scripts 下 建立 SetupComplete.cmd<br>內容為<br>Dism.exe &#x2F;Online &#x2F;Import-DefaultAppAssociations:C:\Windows\AppAssoc.xml</p>
+<p>再右键以管理员运行SetupComplete.cmd</p>
 ]]></content>
       <categories>
         <category>Windows教程</category>
