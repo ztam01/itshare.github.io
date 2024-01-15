@@ -6,7 +6,7 @@
   <link href="https://itkti.com/atom.xml" rel="self"/>
   
   <link href="https://itkti.com/"/>
-  <updated>2024-01-15T13:46:33.746Z</updated>
+  <updated>2024-01-15T13:46:48.810Z</updated>
   <id>https://itkti.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>win10默认应用设置</title>
-    <link href="https://itkti.com/undefined/11557.html"/>
-    <id>https://itkti.com/undefined/11557.html</id>
+    <link href="https://itkti.com/posts/11557.html"/>
+    <id>https://itkti.com/posts/11557.html</id>
     <published>2024-01-15T13:43:03.000Z</published>
-    <updated>2024-01-15T13:46:33.746Z</updated>
+    <updated>2024-01-15T13:46:48.810Z</updated>
     
     <content type="html"><![CDATA[<hr><p>1、封裝前先設定好預設應用程式</p><p>2、cmd下下面指令 匯出預設應用程式的設定檔<br>Dism.exe &#x2F;Online &#x2F;Export-DefaultAppAssociations:C:\windows\AppAssoc.xml</p><p>3、在C:\Windows\Setup\Scripts 下 建立 SetupComplete.cmd<br>內容為<br>Dism.exe &#x2F;Online &#x2F;Import-DefaultAppAssociations:C:\Windows\AppAssoc.xml</p><p>再右键以管理员运行SetupComplete.cmd</p>]]></content>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>win10个性化设置-开始菜单布局设置</title>
-    <link href="https://itkti.com/undefined/10027.html"/>
-    <id>https://itkti.com/undefined/10027.html</id>
+    <link href="https://itkti.com/posts/10027.html"/>
+    <id>https://itkti.com/posts/10027.html</id>
     <published>2024-01-15T12:52:27.000Z</published>
     <updated>2024-01-15T13:40:58.635Z</updated>
     
