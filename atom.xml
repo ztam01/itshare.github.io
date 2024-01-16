@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
+  <title>天機閣</title>
   
-  
+  <subtitle>道友！！請留步</subtitle>
   <link href="https://itkti.com/atom.xml" rel="self"/>
   
   <link href="https://itkti.com/"/>
-  <updated>2024-01-15T14:35:53.055Z</updated>
+  <updated>2024-01-15T15:11:58.295Z</updated>
   <id>https://itkti.com/</id>
   
   <author>
@@ -17,19 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Win10安装.NET Framework 3.5</title>
+    <link href="https://itkti.com/posts/30051.html"/>
+    <id>https://itkti.com/posts/30051.html</id>
+    <published>2024-01-15T15:10:20.000Z</published>
+    <updated>2024-01-15T15:11:58.295Z</updated>
+    
+    <content type="html"><![CDATA[<p>在Win10 ISO文件上点击右键，选择“装载”。<br>以管理员身份运行命令提示符 （或者右键点击Win10开始按钮，以管理员身份运行Windows PowerShell），在“管理员:命令提示符（或管理员: Windows PowerShell）”窗口中输入以下命令：<br>dism.exe &#x2F;online &#x2F;enable-feature &#x2F;featurename:netfx3 &#x2F;Source:L:\sources\sxs<br>注：其中的盘符L要改成你实际的虚拟光驱盘符</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在Win10 ISO文件上点击右键，选择“装载”。&lt;br&gt;以管理员身份运行命令提示符 （或者右键点击Win10开始按钮，以管理员身份运行Windows PowerShell），在“管理员:命令提示符（或管理员: Windows PowerShell）”窗口中输入以下命令：&lt;</summary>
+      
+    
+    
+    
+    <category term="Windows教程" scheme="https://itkti.com/categories/Windows%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Window 10" scheme="https://itkti.com/tags/Window-10/"/>
+    
+  </entry>
+  
+  <entry>
     <title>win10默认应用设置-封装</title>
     <link href="https://itkti.com/posts/11557.html"/>
     <id>https://itkti.com/posts/11557.html</id>
     <published>2024-01-15T13:43:03.000Z</published>
-    <updated>2024-01-15T14:35:53.055Z</updated>
+    <updated>2024-01-16T12:54:10.119Z</updated>
     
-    <content type="html"><![CDATA[<hr><h1 id="①手动设置默认应用"><a href="#①手动设置默认应用" class="headerlink" title="①手动设置默认应用"></a>①手动设置默认应用</h1><h1 id="②输入命令导出设定"><a href="#②输入命令导出设定" class="headerlink" title="②输入命令导出设定"></a>②输入命令导出设定</h1><p>输入cmd，然后输入命令：Dism.exe &#x2F;Online &#x2F;Export-DefaultAppAssociations:C:\windows\AppAssoc.xml</p><h1 id="③建立SetupComplete-cmd"><a href="#③建立SetupComplete-cmd" class="headerlink" title="③建立SetupComplete.cmd"></a>③建立SetupComplete.cmd</h1><p>在C:\Windows\Setup\Scripts 下 建立 SetupComplete.cmd內容为：Dism.exe &#x2F;Online &#x2F;Import-DefaultAppAssociations:C:\Windows\AppAssoc.xml<br>最后再右键以管理员运行SetupComplete.cmd</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="①手动设置默认应用"><a href="#①手动设置默认应用" class="headerlink" title="①手动设置默认应用"></a>①手动设置默认应用</h1><h1 id="②输入命令导出设定"><a href="#②输入命令导出设定" class="headerlink" title="②输入命令导出设定"></a>②输入命令导出设定</h1><p>输入cmd，然后输入命令：Dism.exe &#x2F;Online &#x2F;Export-DefaultAppAssociations:C:\windows\AppAssoc.xml</p><h1 id="③建立SetupComplete-cmd"><a href="#③建立SetupComplete-cmd" class="headerlink" title="③建立SetupComplete.cmd"></a>③建立SetupComplete.cmd</h1><p><code>在C:\Windows\Setup\Scripts 下 建立 SetupComplete.cmd內容为：Dism.exe /Online /Import-DefaultAppAssociations:C:\Windows\AppAssoc.xml</code><br>最后再右键以管理员运行SetupComplete.cmd</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;hr&gt;
-&lt;h1 id=&quot;①手动设置默认应用&quot;&gt;&lt;a href=&quot;#①手动设置默认应用&quot; class=&quot;headerlink&quot; title=&quot;①手动设置默认应用&quot;&gt;&lt;/a&gt;①手动设置默认应用&lt;/h1&gt;&lt;h1 id=&quot;②输入命令导出设定&quot;&gt;&lt;a href=&quot;#②输入命令导出设定&quot; </summary>
+    <summary type="html">&lt;h1 id=&quot;①手动设置默认应用&quot;&gt;&lt;a href=&quot;#①手动设置默认应用&quot; class=&quot;headerlink&quot; title=&quot;①手动设置默认应用&quot;&gt;&lt;/a&gt;①手动设置默认应用&lt;/h1&gt;&lt;h1 id=&quot;②输入命令导出设定&quot;&gt;&lt;a href=&quot;#②输入命令导出设定&quot; class</summary>
       
     
     
@@ -48,7 +71,7 @@
     <link href="https://itkti.com/posts/10027.html"/>
     <id>https://itkti.com/posts/10027.html</id>
     <published>2024-01-15T12:52:27.000Z</published>
-    <updated>2024-01-15T14:35:27.749Z</updated>
+    <updated>2024-01-15T14:54:34.910Z</updated>
     
     <content type="html"><![CDATA[<h1 id="①手动调整开始菜单布局"><a href="#①手动调整开始菜单布局" class="headerlink" title="①手动调整开始菜单布局"></a>①手动调整开始菜单布局</h1><h1 id="②导出布局文件"><a href="#②导出布局文件" class="headerlink" title="②导出布局文件"></a>②导出布局文件</h1><p> win+x  power shell  输入命令“Export-startlayout –path c:\start\start.xml”，其中“c:\start”为事先设置好的一个文件夹，用以保存开始菜单布局文件，“start.xml”为指定的开始菜单布局文件，文件名可修改；</p><h1 id="③应用默认布局"><a href="#③应用默认布局" class="headerlink" title="③应用默认布局"></a>③应用默认布局</h1><p>win+x  power shell（管理员）  输入命令  import-startlayout -layoutpath c:\start\start.xml -mountpath c:\</p>]]></content>
     

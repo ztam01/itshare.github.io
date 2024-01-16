@@ -2,7 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://itkti.com/tags/index.html</loc>
+    
+    <lastmod>2024-01-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://itkti.com/categories/index.html</loc>
+    
+    <lastmod>2024-01-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://itkti.com/link/index.html</loc>
+    
+    <lastmod>2024-01-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://itkti.com/posts/11557.html</loc>
+    
+    <lastmod>2024-01-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://itkti.com/posts/30051.html</loc>
     
     <lastmod>2024-01-15</lastmod>
     
@@ -12,33 +48,6 @@
   
   <url>
     <loc>https://itkti.com/posts/10027.html</loc>
-    
-    <lastmod>2024-01-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://itkti.com/categories/index.html</loc>
-    
-    <lastmod>2024-01-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://itkti.com/tags/index.html</loc>
-    
-    <lastmod>2024-01-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://itkti.com/link/index.html</loc>
     
     <lastmod>2024-01-15</lastmod>
     
@@ -67,7 +76,7 @@
 
   <url>
     <loc>https://itkti.com/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,14 +84,14 @@
   
   <url>
     <loc>https://itkti.com/tags/Window-10/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://itkti.com/tags/%E5%B0%81%E8%A3%85/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -91,7 +100,7 @@
   
   <url>
     <loc>https://itkti.com/categories/Windows%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
