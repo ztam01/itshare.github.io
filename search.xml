@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Win10安装.NET Framework 3.5</title>
+    <url>/posts/30051.html</url>
+    <content><![CDATA[<p>在Win10 ISO文件上点击右键，选择“装载”。<br>以管理员身份运行命令提示符 （或者右键点击Win10开始按钮，以管理员身份运行Windows PowerShell），在“管理员:命令提示符（或管理员: Windows PowerShell）”窗口中输入以下命令：<br>dism.exe &#x2F;online &#x2F;enable-feature &#x2F;featurename:netfx3 &#x2F;Source:L:\sources\sxs<br>注：其中的盘符L要改成你实际的虚拟光驱盘符</p>
+]]></content>
+      <categories>
+        <category>Windows教程</category>
+      </categories>
+      <tags>
+        <tag>Window 10</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>win10默认应用设置-封装</title>
     <url>/posts/11557.html</url>
     <content><![CDATA[<h1 id="①手动设置默认应用"><a href="#①手动设置默认应用" class="headerlink" title="①手动设置默认应用"></a>①手动设置默认应用</h1><h1 id="②输入命令导出设定"><a href="#②输入命令导出设定" class="headerlink" title="②输入命令导出设定"></a>②输入命令导出设定</h1><p>输入cmd，然后输入命令：Dism.exe &#x2F;Online &#x2F;Export-DefaultAppAssociations:C:\windows\AppAssoc.xml</p>
@@ -26,18 +38,6 @@
       <tags>
         <tag>Window 10</tag>
         <tag>封装</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Win10安装.NET Framework 3.5</title>
-    <url>/posts/30051.html</url>
-    <content><![CDATA[<p>在Win10 ISO文件上点击右键，选择“装载”。<br>以管理员身份运行命令提示符 （或者右键点击Win10开始按钮，以管理员身份运行Windows PowerShell），在“管理员:命令提示符（或管理员: Windows PowerShell）”窗口中输入以下命令：<br>dism.exe &#x2F;online &#x2F;enable-feature &#x2F;featurename:netfx3 &#x2F;Source:L:\sources\sxs<br>注：其中的盘符L要改成你实际的虚拟光驱盘符</p>
-]]></content>
-      <categories>
-        <category>Windows教程</category>
-      </categories>
-      <tags>
-        <tag>Window 10</tag>
       </tags>
   </entry>
 </search>
